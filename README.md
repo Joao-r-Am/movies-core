@@ -13,4 +13,4 @@ Projeto front-end: https://github.com/Joao-r-Am/movies-front/tree/main
 ### `npm install`
 ### `npm start`
 
-![movie-app!](movies/assets/projet-movies.gif "movie")
+![movie-app!](assets/projet-movies.gif "movie")
