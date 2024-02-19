@@ -1,5 +1,7 @@
-package dev.joaor.movies;
+package dev.joaor.movies.controller;
 
+import dev.joaor.movies.domain.Review;
+import dev.joaor.movies.services.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

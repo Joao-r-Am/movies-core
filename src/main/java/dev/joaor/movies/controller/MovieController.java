@@ -1,10 +1,10 @@
-package dev.joaor.movies;
+package dev.joaor.movies.controller;
 
-import org.bson.types.ObjectId;
+import dev.joaor.movies.domain.Movie;
+import dev.joaor.movies.services.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -12,7 +12,6 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1/movies")
-@CrossOrigin(origins = "*")
 public class MovieController {
     @Autowired
     private MovieService movieService;

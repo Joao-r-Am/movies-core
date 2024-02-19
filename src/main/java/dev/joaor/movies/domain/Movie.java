@@ -1,4 +1,4 @@
-package dev.joaor.movies;
+package dev.joaor.movies.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

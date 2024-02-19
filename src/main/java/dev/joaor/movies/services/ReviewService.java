@@ -1,5 +1,8 @@
-package dev.joaor.movies;
+package dev.joaor.movies.services;
 
+import dev.joaor.movies.domain.Movie;
+import dev.joaor.movies.domain.Review;
+import dev.joaor.movies.repository.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

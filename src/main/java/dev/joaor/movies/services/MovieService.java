@@ -1,6 +1,7 @@
-package dev.joaor.movies;
+package dev.joaor.movies.services;
 
-import org.bson.types.ObjectId;
+import dev.joaor.movies.domain.Movie;
+import dev.joaor.movies.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
